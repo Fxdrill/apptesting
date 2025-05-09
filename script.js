@@ -10,6 +10,7 @@ const userId = tg.initDataUnsafe.user ? tg.initDataUnsafe.user.id : 'test_user';
 // Generate referral link
 const referralLink = `https://t.me/PipsWizardbot?start=ref_${userId}`; // Updated bot username
 
+
 // Handle quiz submission
 document.getElementById('submitBtn').addEventListener('click', () => {
     const answer = document.getElementById('answer').value.trim();
